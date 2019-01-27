@@ -1,0 +1,180 @@
+
+/* CSS interactions */
+
+.parts:hover {
+	transform: scale(1.3);
+	border: 2px solid red;
+	z-index: 1;
+	
+}
+
+.rHAnnexFrame:hover{
+	height:400px;
+	width: 300px; 
+	margin-left: -450px;
+	top:200px;
+
+}
+
+.rHAnnexFrame:hover .rHAnnex{
+	top:150px;
+	left:50px;
+}
+
+.rhAnnex:hover .rHpartGroup{
+
+}
+
+
+/* header */
+
+.h1 {
+ height: 10%;
+}
+
+.visualizer {
+
+position: absolute;
+width: 80%;
+height: 80%;
+margin-left: 10%;
+margin-right: 10%;
+overflow: visible;
+border: 5px solid black;
+
+
+}
+
+.parts {
+	position: absolute;
+}
+
+/* left hand parts */
+
+.leftHand {
+
+	position: absolute;
+	width: 100vw;
+	height: 100%;
+    left: calc(-50vw + 50%);
+	overflow: scroll;
+}
+
+#cylinderheadcover {
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	top: 50px;
+
+}
+
+#cylinderhead {
+	left: 50%;
+	margin-left: -156px;
+	width: 295px;
+	top: 200px;
+}
+
+#cylinder {
+	left: 50%;
+	margin-left: -128px;
+	top: 375px;
+	width: 155px;
+}
+
+#crankshaft {
+	left: 50%;
+	margin-left: 25px;
+	top: 440px;
+	width: 267px;
+}
+
+#crankcase {
+	left: 50%;
+	margin-left: -175px;
+	top: 550px;
+	width: 375px;
+}
+
+#alternator
+{
+	left: 50%;
+	margin-left: 175px;
+	top: 705px;
+	width: 275px;
+}
+
+#camchain {
+	left: 50%;
+	margin-left: -300px;
+	top: 253px;
+	width: 125px;
+}
+
+#camshaft {
+	left: 50%;
+	margin-left: 80px;
+	top: 267px;
+	width: 225px;
+}
+
+#transmission {
+	left: 50%;
+	margin-left: -200px;
+	top: 700px;
+	width: 300px;
+}
+
+#gearshift {
+	left: 50%;
+	margin-left: 0px;
+	top: 825px;
+	width: 200px;
+	margin-bottom: 50px;
+}
+
+/*Right Hand Annex*/
+
+.rHAnnexFrame{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left:-400px;
+	position: absolute;
+	left:50%;
+	top:400px;
+	height:100px;
+	width: 200px;
+	border: 1px solid red;
+	overflow: scroll;
+	background-color: white;
+}
+
+.rHAnnex {
+	position: absolute;
+
+}
+
+#kickstarter {
+	width: 200px;
+	top: 125px;
+	left:50px;
+
+}
+
+#clutchcover {
+	width:200px;
+	left:-20px;
+
+}
+
+#clutch {
+	top: -60px;
+	left: 50px;
+	width: 200px;
+
+}
+
+
+
+
+
