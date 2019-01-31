@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <title> Dirtbike OEM Visualizer </title>
 
 <link rel="stylesheet" type="text/css" href="bikeUI_style_v2.css">
 
-<script src='/Volumes/LaCie/vizScript.js'> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(function(){
+
+  $(".visualizer").scrollLeft(300);
+
+});
+</script>
 
 </head>
 
 <body> 
 	<h1> XL250 engine block </h1>
 
-	<div class="visualizer">
+	<div class="visFrame">
+		
+
+		<div class="visualizer">
 
 
-		<div class="leftHand">
+			<div class="leftHand">
 
-				<img class="lHpartGroup parts" id=alternator src="alternator.png">
+					<img class="lHpartGroup parts" id=alternator src="alternator.png">
 
-				<img class="lHpartGroup parts" id=cylinderheadcover src="cylinderheadcover.png">
+					<img class="lHpartGroup parts" id=cylinderheadcover src="cylinderheadcover.png">
 
-				<img class="lHpartGroup parts" id=crankshaft src="crankshaft+piston.png">
+					<img class="lHpartGroup parts" id=crankshaft src="crankshaft+piston.png">
 
-				<img class="lHpartGroup parts" id=crankcase src="crankcase.png">
+					<img class="lHpartGroup parts" id=crankcase src="crankcase.png">
 
-				<img class="lHpartGroup parts" id=camchain src="camchain.png">
+					<img class="lHpartGroup parts" id=camchain src="camchain.png">
 
-				<img class="lHpartGroup parts" id=camshaft src="camshaft+valves.png">
+					<img class="lHpartGroup parts" id=camshaft src="camshaft+valves.png">
 
-				<img class="lHpartGroup parts" id=cylinder src="cylinder.png">
+					<img class="lHpartGroup parts" id=cylinder src="cylinder.png">
 
-				<img class="lHpartGroup parts" id=cylinderhead src="cylinderhead.png">
+					<img class="lHpartGroup parts" id=cylinderhead src="cylinderhead.png">
 
-				<img class="lHpartGroup parts" id=gearshift src="gearshift.png">
+					<img class="lHpartGroup parts" id=gearshift src="gearshift.png">
 
-				<img class="lHpartGroup parts" id=transmission src="trans.png">
+					<img class="lHpartGroup parts" id=transmission src="trans.png">
 
-			<div class="rHAnnexFrame">
+				<div class="rHAnnexFrame">
 
-				<div class="rHAnnex">
+					<div class="rHAnnex">
 
-					<img class="rHpartGroup parts" id=kickstarter src="kickstarter.png">
+						<img class="rHpartGroup parts" id=kickstarter src="kickstarter.png">
 
-					<img class="rHpartGroup parts" id=clutchcover src="rightcrankcasecover.png">
+						<img class="rHpartGroup parts" id=clutchcover src="rightcrankcasecover.png">
 
-					<img class="rHpartGroup parts" id=clutch src="clutch.png">
+						<img class="rHpartGroup parts" id=clutch src="clutch.png">
 
-				</div>
+					</div> <!-- rHAnnex-->
+				</div> <!-- rHAnnexFrame-->
+			</div> <!-- leftHand-->
+		</div> <!-- visualizer-->
+	</div> <!-- visFrame-->
 
-			</div>
-
-		</div>
-
-	</div>
 
 
 
