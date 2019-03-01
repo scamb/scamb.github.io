@@ -1,11 +1,6 @@
 /* CSS interactions */
 
-/*.parts:hover {
-	transform: scale(1.3);
-	border: 2px solid red;
-	z-index: 1;
-	
-}*/
+*:hover{}
 
 .rHAnnexFrame:hover{
 	height:400px;
