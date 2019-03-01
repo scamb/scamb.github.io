@@ -1,4 +1,3 @@
-* :hover{}
 /* CSS interactions */
 
 .parts:hover {
@@ -170,8 +169,24 @@ border: 5px solid black;
 
 .rHAnnex {
 	position: absolute;
+	visibility: hidden;
 
 }
+
+.rHAnnex > *{
+	visibility: visible;
+}
+
+
+.rHAnnex > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+/* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+.rHAnnex:hover > * { opacity: 0.4; transform: scale(0.9); }
+/* Fade out all items when the parent is hovered */
+
+.rHAnnex > *:hover { opacity: 1; transform: scale(1.3); transition-delay: 0ms, 0ms; }
+/* Fade in the currently hovered item */
+
 
 #kickstarter {
 	width: 200px;
